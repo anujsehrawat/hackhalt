@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACKHALT</title>
+
+    <style>
+       body{
+        background-color: #c8d9dc;
+      }
+       *{
+        margin: 0;
+        padding: 0;
+       }
+       .logo{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+       }
+       .logo img{
+        width: 65%;
+        border: 3px solid white;
+        border-radius: 7px;
+       }
+       .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+        
+       }
+       .nav-list{
+              width: 75%;
+              display: flex;
+              align-items: center;
+       }
+       .nav-list li{
+              list-style: none;
+              padding: 20px 30px;
+       }
+       .nav-list li a{
+             text-decoration: none;
+             color: white;
+       }
+      .background{
+        background: rgba(0, 0, 0, 0.7) url('haltimg2.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+        max-width: 1556px;
+        max-height: 585px;
+      }
+      .box-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 50%;
+        margin: auto;
+        height: 70%;
+      }
+      .firstsection{
+        height: 100vh;
+      }
+      .firsthalf{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 120px;
+      }
+      .secondhalf{
+            width: 30%;
+      }
+      .secondhalf img{
+        width: 150%;
+        border: 4px solid white;
+        border-radius: 500px;
+        display: block;
+        margin: auto;
+        margin-top: 95px;
+      }
+      .text-big{
+        font-size: 42px;
+      }
+      .text-small{
+        font-size: 20px;
+      }
+      .btn{
+        text-decoration: none;
+        padding: 8px 20px;
+        margin: 7px 0;
+        border: 2px solid white;
+        border-radius: 8px;
+        font-size: 15px;
+        background: none;
+        color: white !important;
+        cursor: pointer;
+      }
+      button a{
+        text-decoration: none;
+        color: white;
+      }
+      footer{
+        text-align: center;
+        color: white !important;
+        font-family: serif;
+        max-height: 20px !important;
+      }
+      footer a{
+        color: white !important;
+      }
+      .div-2{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-top: 100px;
+        font-size: 50px;
+        max-width: 1300px !important;
+        max-height: 620px !important;
+        margin-left: 100px;
+        border-radius: 50px;
+        background: rgba(0, 0, 0, 0.7) url('haltimg2.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+      }
+      .cyndia-img{
+        width: 70%;
+        display: block;
+        margin: auto;
+        margin-top: -240px;
+        margin-left: -140px;
+      }
+      .gdsc-img{
+        width: 40% !important;
+        float: right;
+        margin-right: 120px;
+        margin-top: -540px;
+      }
+      .background-1{
+        background: rgba(0, 0, 0, 0.7) url('haltimg2.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+        max-width: 1700px;
+        margin-top: 150px;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="HACKHALTLOGO.jpg" alt="logo"></div>
+            <li> <a href="index.html">HOME</a> </li>
+            <li> <a href="about.html">ABOUT</a> </li>
+            <li> <a href="#events">EVENTS</a> </li>
+            <li>  <button class="btn"> <a href="register.html">REGISTER NOW</a> </button> </li>
+            <li> <button class="btn"> <a href="https://drive.google.com/file/d/1cElhHJkZrHiTmXUQFA78Xko-wQEXVvKC/view?usp=sharing"> DOWNLOAD BROCHURE </a></button> </li>
+        </ul>
+    </nav>
+    <section class="background firstsection">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="text-big">HACKHALT</p>
+                <p class="small-big">Welcome to "Hack Halt," an electrifying cybersecurity festival hosted by PIET (Panipat Institute of Engineering and Technology) and organised by team ACCESS DENIED  on the 29th and 30th of November. This event is not just a celebration of cybersecurity; it's a tribute to National Computer Security Day, and it's designed to empower and inspire enthusiasts, professionals, and students alike.
+                </p>
+                <br>
+                <div class="buttons">
+                    <button class="btn"> <a href="https://drive.google.com/file/d/1cElhHJkZrHiTmXUQFA78Xko-wQEXVvKC/view?usp=sharing"> Rule Book </a></button>
+                </div>
+            </div>
+            <div class="secondhalf">
+                <img src="haltimg1.jpg" alt="image">
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="div-2">
+         <br>
+         <h1 class="">IN COLLABORATON WITH </h1>
+         <img src="halt4.png" alt="CYNDIA" class="cyndia-img">
+         <img src="halt5.jpg" alt="Google Developer Student Clubs" class="cyndia-img gdsc-img">
+        </div>
+   </section>
+    <footer class="background-1">
+            &copy; copyright HACKHALT. All Rights Reserved | Contact: <a href="mailto:Hackhalt25@gmail.com">Hackhalt25@gmail.com</a>
+    </footer>
+</body>
+</html>
